@@ -1,0 +1,22 @@
+{
+  "name": "lora_server",
+  "version": "1.0.0",
+  "description": "Lora Server",
+  "main": "Server.js",
+  "scripts": {
+    "API": "node lib/Server.js",
+    "build": "babel ./main -d lib"
+  },
+  "author": "Michal Zembik",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.1",
+    "express": "^4.15.4",
+    "mongodb": "^2.2.31",
+    "request": "2.83.0"
+  }
+}
